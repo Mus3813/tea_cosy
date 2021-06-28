@@ -1,0 +1,121 @@
+html{
+    margin: 0;
+  padding: 0;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    
+}
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    
+} 
+
+ul{
+    display:inline-block ;
+    margin-left: 600px;
+}
+nav img{
+    margin-left: 10px;
+    height: 50px;
+    width: auto;
+}
+nav li{
+    display:inline-block ;
+    margin-right: 30px;
+    text-decoration: underline;
+    
+}
+
+section, footer{
+    text-align: center;
+}
+
+
+#hero{
+    position: relative;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 700px; /* You must set a specified height */
+    width: 1200px; 
+    display: flex;
+    /* margin: 0px 30px 30px 30px; */
+    margin: auto;
+    top: 69px;
+}
+/*https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-redline.jpg */
+
+#mission{
+    display: inline-block;
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    margin-top: 300px;
+    
+}
+#locations{
+    position: relative;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    padding-top: 69px;
+}
+#month{
+    width: 1000px;
+    margin: auto;
+    position: relative;
+    padding-top: 80px;
+}
+#varities{
+    display: flex;
+}
+.offerings{
+    display: inline-flex; 
+    justify-content: space-between;
+}
+.offerings img{
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+.offerings p{
+    margin-top: 0px;
+}
+
+#locations h2{
+    margin-bottom: 0px;
+}
+#addresses{
+    margin-top: 15px;
+}
+.address{
+    background-color: black;
+    width: 300px;
+    height: 250px;
+    display: inline-block;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+
+#details{
+    height: 200px;
+}
+#copyright{
+    text-align: left;
+    margin-top: 0px;
+}
