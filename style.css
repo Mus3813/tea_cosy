@@ -36,7 +36,7 @@ nav li{
     display:inline-block ;
     margin-right: 30px;
     text-decoration: underline;
-    
+    color: seashell;
 }
 
 section, footer{
