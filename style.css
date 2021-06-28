@@ -10,13 +10,17 @@ body{
     opacity: 0.9;
     
 }
+a{
+    color: seashell;
+    opacity: 0.9;
+}
 header {
     height: 69px;
     border-bottom: 1px solid seashell;
     position: fixed;
     z-index: 1;
     width: 100%;
-    
+    opacity: 0.9;
 } 
 
 ul{
@@ -37,6 +41,7 @@ nav li{
 
 section, footer{
     text-align: center;
+    opacity: 0.9;
 }
 
 
